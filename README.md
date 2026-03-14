@@ -2,8 +2,6 @@
 
 Este repositório contém o código-fonte de uma prova de conceito acadêmica focada em Agricultura de Precisão de ultrabaixo custo. O objetivo do pipeline é estimar a massa fresca do milho silagem de forma não-destrutiva, extraindo características fenológicas através de imagens RGB convencionais e aplicando modelos estatísticos simples.
 
-*Nota: Este repositório foi anonimizado para fins de revisão por pares (blind review).*
-
 ## 📂 Estrutura do Repositório
 
 * `processamento_imagem.py`: Script responsável pelo pré-processamento (OpenCV). Carrega a imagem original, realiza a conversão para o espaço HSV, aplica a limiarização da cor verde e calcula o percentual de área vegetativa útil da amostra.

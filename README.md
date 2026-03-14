@@ -8,10 +8,3 @@ Este repositório contém o código-fonte de uma prova de conceito acadêmica fo
 * `modelo_regressao.py`: Script focado em Machine Learning (Scikit-Learn). Recebe os dados extraídos das imagens e os cruza com a massa real aferida em campo, gerando o modelo de Regressão Linear Simples, extraindo as métricas (R² e RMSE) e plotando o gráfico de calibração.
 * `requirements.txt`: Lista de dependências e bibliotecas Python necessárias para rodar o projeto.
 * `testphoto1.jpg` e `testphoto2.jpg`: Imagens padronizadas de amostra para validação e teste do algoritmo.
-
-## 🚀 Como Executar (Reprodução do Experimento)
-
-**1. Instalação das dependências**
-Certifique-se de ter o Python 3 instalado. No terminal, instale as bibliotecas necessárias executando:
-```bash
-pip install -r requirements.txt

@@ -55,16 +55,15 @@ def processar_imagem_biomassa(caminho_imagem):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    caminho_teste = "./dados/amostra_milho_01.jpg"
+    # NOME DA FOTO AQUI:
+    # Para testar a outra imagem, basta trocar para "testphoto2.jpg"
+    caminho_teste = "testphoto1.jpg" 
     
-    if not os.path.exists("./dados"):
-        os.makedirs("./dados")
-        print("Pasta './dados' criada. Coloque sua imagem lá e renomeie para 'amostra_milho_01.jpg'.")
-    
+    # Verifica se a foto realmente está na mesma pasta que o script
     if os.path.exists(caminho_teste):
-        print("Iniciando processamento da imagem...")
+        print(f"Iniciando processamento da imagem: {caminho_teste}...")
         processar_imagem_biomassa(caminho_teste)
         print("Processamento concluído. Imagens salvas no diretório atual.")
     else:
         print(f"Erro: Imagem de teste não encontrada em '{caminho_teste}'.")
-        print("Certifique-se de que a imagem está na pasta './dados'.")
+        print("Certifique-se de que a imagem está salva na mesma pasta que este script.")
